@@ -7,22 +7,22 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    
-    /* Bundler mode */
+
+    /* Bundler mode for Vite */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
-    
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    
-    /* CSS and asset imports */
+
+    /* Asset imports */
     "resolveJsonModule": true,
     "allowArbitraryExtensions": true
   },

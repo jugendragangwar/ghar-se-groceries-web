@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap"); */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eee;
+}
+
+.section_margin {
+  @apply max-w-6xl sm:mx-auto py-4 lg:py-10 mx-2;
+}
+
+.main_heading {
+  @apply text-center text-xl sm:text-3xl text-slate-800 font-semibold pb-4 lg:pb-8;
+}
+
+.heading_span {
+  @apply bg-orange-500 text-white px-6 sm:px-8 py-[6px] inline-block [clip-path:polygon(100%_0,93%_50%,100%_100%,0%_100%,8%_50%,0%_0%)];
+}
+
+.nav_menu {
+  @apply text-[#130F40] hover:text-orange-500 transition-colors tracking-wide text-[1.1rem] relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-green-500 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full;
+}
+
+.nav_icon_bg {
+  @apply h-8 w-8 sm:w-12 sm:h-12 flex items-center justify-center bg-gray-100 hover:bg-orange-500 hover:text-white rounded-lg transition-colors;
+}
+
+.nav_icon {
+  @apply w-4 h-4 sm:w-5 sm:h-5;
+}
+
+.card_border {
+  @apply bg-white border border-gray-300 hover:border-gray-400 hover:shadow-lg transition-all duration-300;
+}
+
+.card_heading {
+  @apply tracking-wide font-semibold text-[#130F40];
+}
+
+.card_description {
+  @apply text-gray-600 text-sm;
+}

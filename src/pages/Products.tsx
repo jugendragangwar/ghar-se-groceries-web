@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import SwiperCore from "swiper";
 
 import { ShoppingCart, Heart, Store } from "lucide-react";
-import { PRODUCTS_DATA, ProductType } from "../db/data";
+import { PRODUCTS_DATA, type  ProductType } from "../db/data";
 
 
 const ProductCard: React.FC<{
@@ -59,7 +59,7 @@ const ProductCard: React.FC<{
 };
 
 const Shop: React.FC = () => {
-  const [, setCart] = useState<ProductType[]>([]);
+  const [,setCart] = useState<ProductType[]>([]);
   const topSwiperRef = useRef<SwiperCore | null>(null);
   const bottomSwiperRef = useRef<SwiperCore | null>(null);
 

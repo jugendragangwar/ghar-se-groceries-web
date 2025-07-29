@@ -20,7 +20,7 @@ const Home = () => {
         />
 
         {/* Overlay Content */}
-        <div className="absolute inset-0 flex items-center justify-center bg-opacity-30">
+        <div className="hidden absolute inset-0 md:flex items-center justify-center bg-opacity-30">
           <div className="text-center text-gray-600 px-6 max-w-4xl">
             {/* Main Heading */}
             <h1 className="text-4xl sm:mb-6 leading-tight">

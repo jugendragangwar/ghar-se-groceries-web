@@ -32,9 +32,9 @@ const ProductCard: React.FC<{
       <Heart className="absolute top-2 right-2 w-6 h-6 text-gray-300 cursor-pointer" />
       <div className="flex flex-col">
         <div className="overflow-hidden">
-          <img src={product.image} alt={product.name} className="h-60 object-contain" />
+          <img src={product.image} alt={product.name} className="h-52 sm:h-60 object-contain" />
         </div>
-        <h3 className="card_heading mb-2 text-left">{product.name}</h3>
+        <h3 className="card_heading mb-2 text-left line-clamp-1 text-sm sm:text-base ">{product.name}</h3>
         <div className="flex items-center justify-between w-full">
           <span className="card_description">₹{product.price}</span>
           <div className="flex items-center gap-2">

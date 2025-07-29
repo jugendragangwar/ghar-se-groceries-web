@@ -129,12 +129,12 @@ export const VATEGORIES_DATA = [
   {
     title: "vegetables",
     offer: "upto 45% off",
-    image: cat1,
+    image: cat2,
   },
   {
     title: "fresh fruits",
     offer: "upto 45% off",
-    image: cat2,
+    image: cat1,
   },
   {
     title: "dairy products",
